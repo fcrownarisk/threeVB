@@ -1,7 +1,7 @@
-imports './color/Green.vb'
-imports './color/Blue.vb'
-imports './color/Red.vb'
-imports './color/anti.vb'
+imports color/Green.vb
+imports color/Blue.vb
+imports color/Red.vb
+imports color/anti.vb
 Module XYZT
 Class SpherePoint
     let X = r * Math.sin(theta) * Math.cos(fai)
