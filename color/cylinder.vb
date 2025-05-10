@@ -1,9 +1,9 @@
-imports './sphere.vb'
-imports './color.css'
-imports './Red.vb'
-imports './Green.vb'
-imports './Blue.vb'
-imports './anti.vb'
+imports sphere.vb
+imports color.css
+imports Red.vb
+imports Green.vb
+imports Blue.vb
+imports anti.vb
 Function CylinderXY
   const element1=
            [[1,0,0,0],
