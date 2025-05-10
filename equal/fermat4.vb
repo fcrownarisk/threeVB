@@ -1,1 +1,1 @@
-NNNtensor = Ntensor + NNtensor + NNNtensor
+Nulltensor = Ntensor + NNtensor + NNNtensor
