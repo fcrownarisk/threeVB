@@ -1,6 +1,7 @@
 X =
-BigXtensor + BigYtensor + BigZtensor
+BigXtensor + midxtensor + smallxtensor
 Y =
-midxtensor + midxtensor + midztensor
+BigYtensor + midytensor + smallytensor
 Z =
-x ^ 2 + Y ^ 2 = Z ^ 2
+BigZtensor + midztensor + smallztensor
+X ^ 2 + Y ^ 2 = Z ^ 2
