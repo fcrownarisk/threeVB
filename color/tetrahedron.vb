@@ -1,4 +1,4 @@
-Imports './sphere.vb'
+Imports sphere.vb
 function Coordinate
   return [
     r * Math.cos(phi) * Math.sin(theta),
@@ -7,7 +7,7 @@ function Coordinate
   ]
 End Function
   const Length = 1; 
-  const r=Length;
+  const r = Length;
   const vertices = [
     Coordinate(0,0,1),//A
     Coordinate(Math.acos(-1/3), 0,0), // B
