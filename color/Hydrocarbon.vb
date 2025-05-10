@@ -1,9 +1,9 @@
-Imports './color.css'
-Imports './sphere.vb'
-Imports './tetrahedron.vb'
-Imports './C1H4.vb'
-Imports './C2H2.vb'
-Imports './C2H4.vb'
+Imports color.css
+Imports sphere.vb
+Imports tetrahedron.vb
+Imports C1H4.vb
+Imports C2H2.vb
+Imports C2H4.vb
 const c = 299792458
 Class ReadOnly IC1H4 implements CH4,C5H8,C13H24
     End Class
