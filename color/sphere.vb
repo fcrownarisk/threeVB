@@ -1,20 +1,20 @@
-Imports './color/Green'
-Imports './color/Blue'
-Imports './color/Red'
-Imports './color/anti'
+imports './color/Green.vb'
+imports './color/Blue.vb'
+imports './color/Red.vb'
+imports './color/anti.vb'
 Module XYZT
-function SpherePoint
+Class SpherePoint
     let X = r * Math.sin(theta) * Math.cos(fai)
     let Y = r * Math.sin(theta) * Math.sin(fai)
     let Z = r * Math.cos(fai)
     let T = r * Math.sin(theta)
     return [X,Y,Z,T]
-End Function
+End Class
 
-Function SphereRadius
-    const SphereRadiusx = Math.sin(x) + Math.cos(y) 
-    const SphereRadiusy = Math.sin(y) + Math.cos(x) 
-    const SphereRadiusz = Math.sin(z) + Math.cos(y)
+Class SphereRadius
+    const SphereRadiusx = Math.sin(y) + Math.cos(z) 
+    const SphereRadiusy = Math.sin(x) + Math.cos(z) 
+    const SphereRadiusz = Math.sin(y) + Math.cos(x)
     return [SphereRadiusx, SphereRadiusy, SphereRadiusz]
-End Function
+End Class
 End Module
