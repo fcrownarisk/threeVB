@@ -1,11 +1,10 @@
-
-import './sphere.ts'
-import './color.java'
-import './Red.js'
-import './Green.js'
-import './Blue.js'
-import './anti.js'
-void function CylinderXY(){
+imports './sphere.vb'
+imports './color.css'
+imports './Red.vb'
+imports './Green.vb'
+imports './Blue.vb'
+imports './anti.vb'
+Function CylinderXY
   const element1=
            [[1,0,0,0],
             [0,1,0,0],
@@ -29,8 +28,8 @@ void function CylinderXY(){
             [0,0,0,1],
             [1,0,0,0],
             [0,1,0,0]]
-}
-void function CylinderYZ(){
+End function
+function CylinderYZ
     const element5 =
            [[1,0,1,0],
             [0,1,0,0],
@@ -54,8 +53,8 @@ void function CylinderYZ(){
             [0,1,0,0],
             [1,0,1,0],
             [0,0,0,1]]
-}
-void function CylinderXZ() {
+End function
+function CylinderXZ
     const element9 =
            [[0,1,0,1],
             [1,0,1,0],
@@ -79,8 +78,8 @@ void function CylinderXZ() {
             [0,0,1,0],
             [0,0,0,1],
             [1,0,0,0]]
-}
-void function CylinderXYZ(){
+End function
+function CylinderXYZ
     const element13 =
         [[1,0,1,0],
             [0,0,0,1],
@@ -94,7 +93,7 @@ void function CylinderXYZ(){
             [0,1,0,0]]
 
     const element15 =
-        [[0,0,1,0],
+           [[0,0,1,0],
             [0,0,0,1],
             [1,0,1,0],
             [0,1,0,0]]
@@ -128,11 +127,11 @@ void function CylinderXYZ(){
             [1,0,0,0],
             [0,1,0,0],
             [0,0,1,0]]
-}
-void function Cylinder(X:number,Y:number,Z:number){
-    const CylinderXY = 'Cylinder.X + Cylinder.Y'
-    const CylinderYZ = 'Cylinder.Y + Cylinder.Z'
-    const CylinderZX = 'Cylinder.Z + Cylinder.X'
-    const CylinderXYZ = 'Cylinder.X + Cylinder.Y + Cylinder.Z'
+End function
+Sub Cylinder
+    const CylinderXY = Cylinder.X + Cylinder.Y
+    const CylinderYZ = Cylinder.Y + Cylinder.Z
+    const CylinderZX = Cylinder.Z + Cylinder.X
+    const CylinderXYZ = Cylinder.XY + Cylinder.YZ + Cylinder.XZ
     return [CylinderXY,CylinderYZ,CylinderZX,CylinderXYZ,X,Y,Z]
-}
+End Sub
