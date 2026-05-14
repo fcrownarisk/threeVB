@@ -6,6 +6,7 @@ function Coordinate
     r * Math.cos(theta)
   ]
 End Function
+Class
   const Length = 1; 
   const r = Length;
   const vertices = [
@@ -20,5 +21,4 @@ End Function
   vertices.forEach((vertex, index) => {
     console.WriteLine(`Vertex {index}: ({vertex[0]}, {vertex[1]}, {vertex[2]})`);
   })
-
-  
+End Class
