@@ -45,6 +45,6 @@ class anti
     [[0, 0, 0, 1],
      [1, 0, 0, 0],
      [0, 1, 0, 0],
-     [0, 0, 1, 0]]
+     [1, 0, 1, 0]]
 End Class
 console.WriteLine(element13,element14,element15,element16,element17,element18,element19,element20)
